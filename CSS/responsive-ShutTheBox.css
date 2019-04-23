@@ -10,13 +10,10 @@
 /*iPad Pro*/
 /*width: 1010px;*/
     h1{
-        margin: 0px 0px 0px 191px;
     }
     h2{
-        margin: 0px 0px 0px 430px;
     }
     p{
-        margin: 10px 17px 10px 17px;
         font-size: 1.184em;
     }
     #box{
@@ -163,13 +160,10 @@
 /*iPad*/
 /*width: 964px;*/
     h1{
-        margin: 0px 0px 0px 191px;
     }
     h2{
-        margin: 0px 0px 0px 430px;
     }
     p{
-        margin: 10px 17px 10px 17px;
         font-size: 1.184em;
     }
     #box{
@@ -309,15 +303,12 @@
 /*Half screen*/
 /*width: 622px;*/
     h1{
-        margin: 0px 0px 0px 0px;
         font-size: 4.9em;
     }
     h2{
-        margin: 0px 0px 0px 276px;
         font-size: 2em;
     }
     p{
-        margin: 10px 1.3px;
         font-size: 1em;
     }
     #box{

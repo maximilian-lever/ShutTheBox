@@ -1,25 +1,27 @@
 body{
     background: url(../img/ShutTheBoxBG.png);
+    background-size: contain;
 }
 h1{
-    margin: 0px 0px 0px 335px;
+    text-align: center;
     font-size: 5em;
     color: rgb(120, 205, 120);
     font-family: Arial, Helvetica, sans-serif;
 }
 h2{
-    margin: 0px 0px 0px 568px;
+    text-align: center;
     font-size: 140%;
     color: rgb(120, 205, 120);
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
-    margin: 10px 170px 10px 170px;
+    text-align: center;
+    padding: 0vh 16vw;
     color: rgb(120, 205, 120);
     font-family: Arial, Helvetica, sans-serif;
 }
 #box{
-    margin: 0px 335px 0px 326.5px;
+    margin: 0% 34%;
     border: 1px solid rgb(0, 0, 0);
     padding: 0px 0px 110px 0px;
     color: rgb(120, 205, 120);
@@ -231,8 +233,8 @@ div :nth-child(24){
 }
 #firstdice{
     position: absolute;
-    margin: 10px 0px 0px 560px;
-    padding: 0px 16px 0px 16px;
+    margin: 1% 46%;
+    padding: 0px 16px;
     font-size: 3.5em;
     border: 2px solid rgb(0, 0, 0);
     color: rgb(120, 205, 120);
@@ -240,8 +242,8 @@ div :nth-child(24){
 }
 #seconddice{
     position: absolute;
-    margin: 10px 0px 0px 630px;
-    padding: 0px 16px 0px 16px;
+    margin: 1% 50%;
+    padding: 0px 16px;
     font-size: 3.5em;
     border: 2px solid rgb(0, 0, 0);
     color: rgb(120, 205, 120);
@@ -249,8 +251,7 @@ div :nth-child(24){
 }
 #total{
     position: absolute;
-    margin: 80px 0px 0px 545px;
-    padding: 0px 16px 0px 16px;
+    margin: 5% 46%;
     font-size: 2.65em;
     color: rgb(120, 205, 120);
     font-family: Arial, Helvetica, sans-serif;
@@ -264,7 +265,7 @@ div :nth-child(24){
 }
 button{
     position: absolute;
-    margin: 130px 0px 0px 480px;
+    margin: 8% 42%;
     width: 300px;
     font-size: 3.5em;
     font-family: Arial, Helvetica, sans-serif;
