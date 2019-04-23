@@ -33,8 +33,8 @@ var dieOne = 0,
     twoDice = true,
     loss = false;
 console.log("Running.")
-//main();
-test();
+main();
+//test();
 function main(){
     reset.style.display = hide;
     banner.style.display = hide;  
@@ -58,6 +58,7 @@ function button(tile){
         gameOver();
     }
     sevenToTwelve();
+    console.log('button(' + tile + ') has run.');
 }
 function radioButtonClass(tile){
     radioButtonArray[tile]= true;
@@ -66,6 +67,7 @@ function zero(){
     if(total == 0){
         roll.style.display = show;
     }
+    console.log('zero() has run.');
 }
 function gameOver(){
     if(loss === true){
@@ -79,6 +81,7 @@ function gameOver(){
         banner.innerHTML = "BOX SHUT.";
         reset.style.display = show;
     }
+    console.log('gameOver() has run.');
 }
 function sevenToTwelve(){
     if(radioButtonArray[6]===true && radioButtonArray[7]===true && radioButtonArray[8]===true && radioButtonArray[9]===true && radioButtonArray[10]===true && radioButtonArray[11]===true){
